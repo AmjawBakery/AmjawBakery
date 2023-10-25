@@ -1,0 +1,186 @@
+section {
+    padding: 60px 0;
+}
+
+.logo-font{
+    font-family: "Monotype Corsiva";
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #992D2D;
+}
+
+.btn-outline-success-default {
+    background-color: white;
+    border-color: white;
+}
+
+.navbar-bg {
+    background-color: #791d1d;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:active {
+    color: #d68888;
+}
+
+/*intro style*/
+/*.intro-img-style {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 2px white;
+}*/
+
+.section-bg {
+    background-color: #973029;
+}
+
+.card-img-top-rounded {
+    width: 65%;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+
+/*.img-shadow {
+    border:2px solid #992D2D;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.1);
+}*/
+
+.card-heading-color {
+    color: #973029;
+}
+
+.icon-size {
+    margin-top: 20px;
+    height:125px;
+}
+
+
+/*card */
+.card-border-style {
+    border-radius: 0;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-color: #fff;
+}
+
+.card-bg {
+    background-color: #973029;
+}
+
+/*footer styles*/
+a>.social-link-color {
+    color: white;
+}
+
+a>.social-link-color:visited {
+    color: white;
+}
+
+a>.social-link-color:active {
+    color: white;
+}
+
+a>.social-link-color:hover {
+    color: #d68888;
+}
+
+.main-footer {
+    background-color: #791d1d;
+}
+
+.footer-text {
+    font-size: 1.1rem;
+}
+
+.carousel-control-next
+{
+    background-color:#791d1d;
+    margin-right:93px;
+}
+
+.carousel-control-next-icon:hover
+{
+  content: '>';
+  font-size: 55px;
+  color: #791d1d;
+}
+
+.carousel-control-prev {
+    background-color:#791d1d;
+    margin-left:94px;
+}
+
+.carousel-control-prev-icon:hover
+{
+  content: '>';
+  font-size: 55px;
+  color: #791d1d;
+} 
+
+/*media query*/
+@media screen and (max-width: 576px) {
+	
+	.nav-wa-button{
+		margin-left: -10px;
+	}
+	
+	
+	.price-text {
+		font-size: 11px;
+	}
+	
+	.ms-card {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.icon-size {
+		margin-top: 3px;
+		width: 64px;
+		height: 64px;
+	}
+	
+	.rv-text{
+		font-size: 12px;
+	}
+	
+	.rv-author{
+		font-size: 10px;
+	}
+	
+	.bi-star-fill {
+		padding-top: 32px;
+		font-size: 10px;
+	}
+	
+	.copyright-text {
+		text-align: center;
+		font-size: 12px;
+		margin-top: 12px;
+	}
+
+	.carousel-control-next
+    {
+        background-color:rgba(39, 39, 39, 0.397);
+        margin-right:0;
+    }
+
+    .carousel-control-prev {
+        background-color:rgba(39, 39, 39, 0.397);
+        margin-left:0;
+    }
+
+
+}
